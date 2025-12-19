@@ -4,7 +4,7 @@
 
 Fluster is a free, open source note taking application designed for the modern academic. Powered by Rust with a complete bibliography manager, a task manager, a snippets database, an equations database, and much, much more, Fluster is the perfect companion for whatever it is that you're studying.
 
-Learn more by visiting our website at [https://fluster-one.vercel.app](https://fluster-one.vercel.app). (Chip in and we might even be able to afford a real domain.)
+Learn more by visiting our website at [https://flusterapp.com](https://flusterapp.com).
 
 ## Features
 
