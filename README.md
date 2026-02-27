@@ -2,74 +2,28 @@
 
 ![Fluster banner](fluster_banner.png)
 
-Fluster is a free, open source note taking application designed for the modern academic. Powered by Rust with a complete bibliography manager, a task manager, a snippets database, an equations database, and much, much more, Fluster is the perfect companion for whatever it is that you're studying.
+> Beginning of a docs rewrite for the upcoming release of the Apple specific applications, so some of these docs refer to new features. Both applications are pretty much complete, but I'm homeless... so I'm struggling to afford that fx$\*@ng Apple developer license.
 
-Learn more by visiting our website at [https://flusterapp.com](https://flusterapp.com).
+To make a long story short, Fluster is a new rendition of an application that I built for [my own academic pursuits](https://www.flusterapp.com/docs/my_work/on_the_gravitational_nature_of_time). The search & linking features helped me organize my thoughts better than any application available, and I hope they'll help you organize your thoughts too.
 
-## Features
+Here's a few of the features on initial release:
 
-> Almost all missing features were present in the initial, browser based version of Fluster. The remaining features are almost all half-implemented. The remainder of an initial version of Fluster will come together quickly, hopefully making all of these features available by fall of 2025. If you can, please consider supporting the continued development of Fluster... I've been homeless for more than 3 years after leaving a career in software to pursue a modified model of relativity in my field of formal education, physics, so every little bit helps.
+- [x] Full, multi-page free-draw canvas
+- [x] Integrated Mdx editor with:
+  - [x] Component Snippets
+  - [x] Syntax Highlighting
+  - [x] Vim support
+  - [x] Emacs support
+- [x] Searchability features:
+  - [x] Search by tag
+  - [x] Search by topic
+  - [x] Search by subject
+  - [x] Search by citation
+  - [x] Full-text search with syntax specific re-ranking for improved search accuracy
+  - [ ] Semantic search
+    - This was included on-device in the Tauri based version of Fluster. It's unlikely that a _completely_ on device vector store will make it's way back to Fluster, but a future version will include support for an off-device vector store as a paid service.
+- [x] Integrated bibliography manager with csl support. Current release only supports using embedded csl files, narrowing the options down to about 20, but future versions will allow providing your own csl file.
 
-- [x] Almost all logic implemented in Rust. (with rare exceptions to avoid calling the same method multiple times)
-- [x] Bibliography manager
-  - [x] Link pdf's
-  - [x] Internal PDF viewer (may experience bugs in initial release)
-  - [x] Customize citation format using any valid `.csl` file
-  - [x] Use a user provided `.bib` file to source citations.
-- [x] Task Manager
-  - [x] Task notes accept the same mdx content as the rest of Fluster mdx content.
-  - [x] Embeddable task list, allows the user to embed a subset of their tasks directly in a note.
-- [x] Mdx notes, with a list of embeddable components.
-- [x] Internal, embedded documentation
-- [x] Local AI chat (model responds in mdx supported elsewhere throughout the app)
-  - On initial launch Fluster will download the necessary models to provide the user with completely offline LLM support.
-  - [x] Vector Search
-  - [x] RAG Support (work in progress)
-  - [ ] Support for remote LLM providers.
-- [x] Navigate by:
-  - [x] Text search
-  - [x] Vector search
-  - [x] Tag
-  - [x] Topic
-  - [x] Subject
-  - [x] Command Palette
-- [ ] Kanban Boards
-- [x] A user defined dictionary using a special code block directly in the user's notes.
-- [x] An equations database that can in turn be used to find notes with related equations.
-- [x] A snippets database
-- [x] An internal editor, powered by Monaco.
-  - [x] Vim keymap support
-- [x] Customizable themes
-  - [ ] Customizable color props (will be added to settings page in coming weeks)
-- [x] Keyboard based navigation support for maximum productivity
-  - While this is coming along well, this will be an ongoing process that will continue to get better with time.
-  - [x] Customizable keymaps (keymaps are in place, but settings page to customize keymaps is not yet implemented)
-- [ ] Jupyter Support (currently in progress. Will be available within 2 weeks from initial launch)
-  - [ ] Embeddable cells
-  - [ ] Complete support for `ipynb` files.
-  - [ ] Render complete notebooks in 'view' mode
-- [ ] Interactive plotting (partially complete. Will be available within 2 weeks from initial launch.)
-  - [x] 2-d Line plot
-  - [x] 2-d Scatter plot
-  - [x] Pie chart
-  - [x] 3-d Line plot
-  - [x] 3-d Scatter plot
-  - [x] 3-d Surface plot
-  - [x] Mermaid diagram support
-- [x] Support for gltf files and 3d model rendering.
-- [ ] Tabular data support (currently in progress. Expected this week.)
-  - [ ] View as data table
-  - [ ] Auto-generate interactive plots
-- [ ] Plugin support
-  - **_IMPORTANT_** This was perhaps my single greatest priority when re-writing Fluster. The entire architecture was built to support a variety of plugins. While additional plugin features may have to wait until fall, the ability to provide your own React components will likely be supported sometime in July of 2025.
+## Future Plans
 
-## SDK's
-
-- [ ] Python (in progress. Will be released this summer).
-- [x] Typescript (used internally)
-- [ ] Go (will build out with cli in coming weeks)
-- [ ] Rust (partially complete)
-
-## Sidenote
-
-If anyone out there is hiring, I'm very much looking for work. As I mentioned above, 3+ years ago I basically quit my entire life to work on a modified model of relativity that has produced incredible results. I really couldn't see myself going back to work until I checked that box, and now with that behind me, I'm beyond ready to return to work. 3+ years living in my car has taken it's toll on my, both mind and body. Feel free to send me an email at [fluster.eyeoh@gmail.com](mailto:fluster.eyeoh@gmail.com). I have experience with Typescript, Rust, Go, Python, Dart and a little bit of Lua.
+Future plans are to become a more Jupyter-friendly note taking framework that's capable of meeting the needs of the most advanced academics, but simple enough for everyone. The plan is to build a python-esk domain specific language for note related tasks like math calculations, generating plots, and even interacting with the file system on desktop... directly from within your note, and then move to a Swift-first rendering layout where mdx is rendered in a 'cell' of a native layout, rather than in completely separate component. This would allow writing mobile-friendly, high-performant Jupyter compatible notebooks in a markdown-first syntax, but this is a big undertaking. If this interests you, please consider supporting the application. A previous version of this app is what helped me, and I hope a future version of this app can help many people.
