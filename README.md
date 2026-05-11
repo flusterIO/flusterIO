@@ -35,7 +35,7 @@ Future plans are to become a more Jupyter-friendly note taking framework that's 
 Finally, after 5 years of spending every waking moment working on this problem, I have what I was looking for:
 
 $$
- \alpha = \frac{1}{2 - \alpha} \sqrt[3]{\frac{GM}{R^3}} = \frac{1}{2 - \alpha} \sqrt[3]{\frac{d}{dR}g} \pm 0.0034\%
+ \alpha = \frac{1}{2 - \alpha} \sqrt[3]{\frac{GM}{R^3}} = \frac{1}{2 - \alpha} \sqrt[3]{\frac{d}{dR}g} \pm 0.0034\\\%
 $$
 
 Where $1/\sqrt{2- \alpha}$ is a spinor function akin to that found quantum mechanics.
