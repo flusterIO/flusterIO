@@ -27,3 +27,21 @@ Here's a few of the features on initial release:
 ## Future Plans
 
 Future plans are to become a more Jupyter-friendly note taking framework that's capable of meeting the needs of the most advanced academics, but simple enough for everyone. The plan is to build a python-esk domain specific language for note related tasks like math calculations, generating plots, and even interacting with the file system on desktop... directly from within your note, and then move to a Swift-first rendering layout where mdx is rendered in a 'cell' of a native layout, rather than in completely separate component. This would allow writing mobile-friendly, high-performant Jupyter compatible notebooks in a markdown-first syntax, but this is a big undertaking. If this interests you, please consider supporting the application. A previous version of this app is what helped me, and I hope a future version of this app can help many people.
+
+---
+
+## I have it
+
+Finally, after 5 years of spending every waking moment working on this problem, I have what I was looking for:
+
+$$
+ \alpha = \frac{1}{2 - \alpha} \sqrt[3]{\frac{GM}{R^3}} = \sqrt[3]{\frac{d}{dR}g} \pm 0.0034\%
+$$
+
+Where $1/\sqrt{2- \alpha}$ is a spinor function akin to that found quantum mechanics.
+
+That's a $\alpha$, the fine-structure constant that describes the interactions and geometry of the electromagnetic field defined in terms of gravitational parameters to undeniable accuracy. t's controversial, but the Earth is expanding _with_ the rest of the Universe, and _that_ is the source of gravitational acceleration. This follows logically from a single mathematically equivalent modification to Einstein's relativity that resolves a paradox that I believe is absolutely impossible in reality as we experience it: relativistic simultaneity... the idea that an instantaneous event can occur at multiple places in time based on a coordinate transformation.
+
+This is the problem Fluster was originaly created to help me resolve.
+
+**The world is about to change.**
