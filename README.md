@@ -4,6 +4,9 @@
 
 > Beginning of a docs rewrite for the upcoming release of the Apple specific applications, so some of these docs refer to new features. Both applications are pretty much complete, but I'm homeless... so I'm struggling to afford that fx$\*@ng Apple developer license.
 
+
+[The repo you're probably looking for](https://github.com/flusterIO/fluster-ipad)
+
 To make a long story short, Fluster is a new rendition of an application that I built for [my own academic pursuits](https://www.flusterapp.com/docs/my_work/on_the_gravitational_nature_of_time). The search & linking features helped me organize my thoughts better than any application available, and I hope they'll help you organize your thoughts too.
 
 Here's a few of the features on initial release:
