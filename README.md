@@ -24,7 +24,7 @@ The upcoming Apple applications are being rebuilt around Conundrum, providing a 
 * MDX-based editor
 
   * Component snippets
-  * Syntax highlighting
+  * Syntax highlighting (kinda)
   * Vim support
   * Emacs support
 * Structured search
